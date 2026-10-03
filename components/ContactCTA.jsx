@@ -1,0 +1,2 @@
+import LeadForm from './LeadForm';
+export default function ContactCTA({ title='Получите структуру расчёта по вашей квартире', copy='Расскажите об объекте. Мы сохраним ваши вводные и подготовим следующий шаг после подключения CRM.' }) { return <section className="contact-cta" id="contact"><div className="container contact-grid"><div><p className="eyebrow">Следующий шаг</p><h2>{title}</h2><p>{copy}</p></div><LeadForm /></div></section>; }
